@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ebf5fc;
+}
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100px;
+}
+.container .card
+{
+    width: 320px;
+    margin: 20px;
+    padding: 40px 30px;
+    background: #ebf5fc;
+    border-radius: 15px;
+    border-radius: 5px #ebf5fc;
+    box-shadow: -4px -4px 10px rgba(255, 255, 255, 1),
+                 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container .card:hover
+{
+    box-shadow:  inset -4px -4px 8px rgba(255, 255, 255, 0.8),
+                 inset  4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container .card .imgBx
+{
+    position: relative;
+    text-align: center;
+}
+.container .card .contentBx
+{
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+.container .card .contentBx h2
+{
+    color: #32a3b1;
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.container .card .contentBx p
+{
+    color: #32a3b1;
+}
+.container .card .contentBx a
+{
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+    color: #32a3b1;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 1),
+                 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container .card .contentBx a:hover
+{
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 1),
+                inset  2px 2px 4px rgba(0, 0, 0, 0.1);
+    color: blue;    
+}
