@@ -1,2 +1,2 @@
-# Neynorphic-Card-Hover-
+# Neynorphic-Card-Hover
 Neumorphic Card Hover effect
